@@ -19,23 +19,6 @@
 		<java.version>11</java.version>
 	</properties>
 
-	<distributionManagement>
-		<repository>
-			<id>release</id>
-			<name>release</name>
-			<url>http://localhost:8081/artifactory/libs-release-local</url>
-		</repository>
-		<snapshotRepositroy>
-			<id>snapshot</id>
-			<name>snapshot</name>
-			<url>http://localhost:8081/artifactory/lib/snapshot-local</url>
-
-	<scm>
-           <connection>scm:git@github.com:kamilponikwia/devops.git</connection>
-           <developerConnection>scm:git@github.com:kamilponikwia/devops.git</developerConnection>
-           <url>git@github.com:kamilponikwia/devops.git</url>
-        </scm>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
